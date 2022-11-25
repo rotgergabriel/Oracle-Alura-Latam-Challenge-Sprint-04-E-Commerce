@@ -1,0 +1,137 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    color: blue;
+    font-size: 20px;
+}
+
+.logo--black {
+    color: black;
+}
+
+.header__search {
+    border: none;
+    border-radius: 10px;
+    
+    background: url(/assets/lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15px;
+    background-color: #F5F5F5;
+    width: 20em;
+    padding: 10px;
+    outline: none;
+}
+
+.nav__banner {
+    width: 100%;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    background: url(/assets/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav--container {
+    line-height: 30px;
+    color: white;
+    margin-inline-start: 50px;
+    margin-block-end: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 3rem;
+    width: 80%;
+}
+
+.nav--container h1 {
+    font-size: 2em;
+}
+
+.main--title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main--title h1 {
+    font-size: 1.5em;
+}
+
+.main--title a {
+    text-decoration: none;
+}
+
+.main--products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-block-end: 3rem;
+}
+
+.main--link {
+    text-decoration: none;
+    cursor: pointer;
+    margin: 20px 10px;
+    background: rgba(244, 243, 243, 0.933);
+}
+
+.main--product {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.product--description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5px 5px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: #EAF2FD;
+    padding: 5% 10%;
+    flex-wrap: wrap;
+}
+
+.footer--list {
+    line-height: 38px;
+}
+
+.footer--list ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer--form {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.footer--copyright {
+    padding: 20px 0;
+    text-align: center;
+}
