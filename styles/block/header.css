@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 1.5rem;
+    flex-wrap: wrap;
+    user-select: none;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    color: rgb(42, 122, 228);
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.header__logo span:last-child {
+    color: black;
+}
+
+.header__search {
+    border: none;
+    border-radius: 10px;
+    margin: 5px 0;
+
+    background: url(/assets/lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15px;
+    background-color: rgb(245, 245, 245);
+    width: 20em;
+    padding: 10px;
+    outline: none;
+}
+
+.login {
+    margin: 5px 0;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.header__login--button {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #2A7AE4;
+    padding: 8px 4em;
+}

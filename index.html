@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/pages/reset.css">
+    <link rel="stylesheet" href="styles/pages/style.css">
+    <link rel="stylesheet" href="/styles/block/header.css">
+    <link rel="stylesheet" href="/styles/block/nav.css">
+    <link rel="stylesheet" href="/styles/block/main.css">
+    <link rel="stylesheet" href="/styles/block/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
     <title>AluraGeek</title>
 </head>
 <body>
@@ -13,20 +20,20 @@
         <div class="header__logo">
             <img src="/assets/logo.png" alt="Logo">
             <span>Alura</span>
-            <span class="logo--black">Geek</span>
+            <span>Geek</span>
         </div>
         <div>
             <input class="header__search" type="text" placeholder="Search">
         </div>
         <div class="login">
-            <a href="login.html"><button type="submit">Login</button></a>
+            <a href="/pages/login.html"><button class="header__login--button" type="submit">Login</button></a>
         </div>
     </header>
     <nav class="nav__banner">
         <div class="nav--container">
             <h1>Febrero promocional</h1>
             <h2>Productos seleccionados con 33% de descuento</h2>
-            <a href="login.html"><button type="submit">Ver Consolas</button></a>
+            <a href="#"><button class="general-btn" type="submit">Ver Consolas</button></a>
         </div>
     </nav>
     <main class="main">
@@ -224,28 +231,28 @@
             <div class="header__logo">
                 <img src="/assets/logo.png" alt="Logo">
                 <span>Alura</span>
-                <span class="logo--black">Geek</span>
+                <span>Geek</span>
             </div>
             <div class="footer--list">
                 <ul>
                     <li><a href="#">Quienes somos</a></li>
-                    <li><a href="#">Politica de privacidad</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
                     <li><a href="#">Programa de fidelidad</a></li>
                     <li><a href="#">Nuestras tiendas</a></li>
                     <li><a href="#">Quiero ser franquiciado</a></li>
                     <li><a href="#">Anuncie aquí</a></li>
                 </ul>
             </div>
-            <form action="" class="footer--form">
+            <form action="" method="post" class="footer--form">
                 <h2>Hable con nosotros</h2>
-                <input type="text" name="" id="" placeholder="Nombre">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-                <input type="submit" value="Enviar mensaje">
+                <input type="text" name="" id="" placeholder="Nombre" required>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+                <input class="general-btn form-btn" type="submit" value="Enviar">
             </form>
         </section>
         <section class="footer--copyright">
             <p>Desarrollado por Rotger Gabriel</p>
-            <p>2022</p>
+            <p data-form-Date>2022</p>
         </section>
     </footer>
 </body>
