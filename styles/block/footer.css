@@ -68,6 +68,9 @@
     .footer__container, div, form {
         padding: 10px;
     }
+    .footer--list {
+        text-align: center;
+    }
     .footer--form {
         width: 80%;
     }
