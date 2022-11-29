@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets//lupa.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/pages/reset.css">
+    <link rel="stylesheet" href="/styles/pages/style.css">
+    <link rel="stylesheet" href="/styles/pages/header.css">
+    <link rel="stylesheet" href="/styles/block/main.css">
+    <link rel="stylesheet" href="/styles/pages/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>New product</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="/assets/logo.png" alt="Logo">
+            <span>Alura</span>
+            <span>Geek</span>
+        </div>
+        <div>
+            <input class="header__search" type="text" placeholder="Search">
+        </div>
+        <div class="login">
+            <a href="#"><button class="header__login--button" type="submit">Menú Administrador</button></a>
+        </div>
+    </header>
+    <main class="main__login main__new-product">
+        <form class="main--form" method="post">
+            <h1>Agregar nuevo producto</h1>
+            <input class="form--input" type="text" name="usuario" placeholder="URL de imagen" required
+                autofocus>
+            <input class="form--input" type="text" name="usuario" placeholder="Categoría" required
+                autofocus>
+            <input class="form--input" type="text" name="usuario" placeholder="Nombre del producto" required
+                autofocus>
+            <input class="form--input" type="number" name="usuario" placeholder="Precio del producto" required
+                autofocus>
+            <input class="form--input" type="text" name="clave" placeholder="Descripción del producto" required>
+            <button class="general-btn btn" type="submit" name="entrar">Agregar producto</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <section class="footer__container">
+            <div class="header__logo">
+                <img src="/assets/logo.png" alt="Logo">
+                <span>Alura</span>
+                <span>Geek</span>
+            </div>
+            <div class="footer--list">
+                <ul>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Programa de fidelidad</a></li>
+                    <li><a href="#">Nuestras tiendas</a></li>
+                    <li><a href="#">Quiero ser franquiciado</a></li>
+                    <li><a href="#">Anuncie aquí</a></li>
+                </ul>
+            </div>
+            <form action="" method="post" class="footer--form">
+                <h2>Hable con nosotros</h2>
+                <input type="text" placeholder="Nombre" required>
+                <textarea cols="30" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+                <input class="general-btn form-btn" type="submit" value="Enviar">
+            </form>
+        </section>
+        <section class="footer--copyright">
+            <p>Desarrollado por Rotger Gabriel</p>
+            <p data-form-Date>2022</p>
+        </section>
+    </footer>
+</body>
+
+</html>

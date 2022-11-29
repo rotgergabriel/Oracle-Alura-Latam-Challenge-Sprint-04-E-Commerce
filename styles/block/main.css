@@ -58,7 +58,6 @@
 }
 
 /* login.html */
-
 .main__login {
     display: flex;
     justify-content: center;
@@ -95,6 +94,12 @@
         width: 20em;
     }
 }
+
+/* new-product.html */
+.main__new-product {
+    height: 60vh;
+}
+
 @media (min-width:320px) and (max-width:768px) {
     /* products.html */
     .main__container {
