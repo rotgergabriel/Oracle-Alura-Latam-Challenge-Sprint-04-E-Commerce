@@ -11,10 +11,6 @@
     width: 80%;
 }
 
-.nav--container h1 {
-    font-size: 2em;
-}
-
 .main--title {
     display: flex;
     justify-content: space-between;
@@ -97,5 +93,17 @@
 @media (min-width:320px) and (max-width:375px) {
     .form--input {
         width: 20em;
+    }
+}
+@media (min-width:320px) and (max-width:768px) {
+    /* products.html */
+    .main__container {
+        margin-block-start: 0px;
+    }
+    .products, h1 {
+        font-size: 12px;
+    }
+    .products-btn {
+        font-size: 8px;
     }
 }

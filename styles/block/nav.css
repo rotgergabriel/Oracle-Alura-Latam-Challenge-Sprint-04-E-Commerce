@@ -19,6 +19,10 @@
     margin-block-end: 50px;
 }
 
+.nav--container h1 {
+    font-size: 2em;
+}
+
 @media (min-width: 425px) and (max-width: 500px) {
     .nav--container {
         font-size: 14px;
